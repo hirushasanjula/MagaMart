@@ -5,6 +5,13 @@ import { ShoppingCartButton } from "@/app/components/SubmitButton";
 import prisma from "@/lib/db"
 import { StarIcon } from "lucide-react";
 import { notFound } from "next/navigation"
+import { unstable_noStore as noStore } from "next/cache";
+
+interface PageProps {
+    params: {
+      id: string;
+    };
+  }
 
 async function getData(productId: string) {
     const data = await prisma.product.findUnique({
@@ -27,7 +34,8 @@ async function getData(productId: string) {
     return data;
 }
 
-export default async function PorductIdRoute({params}: {params: {id: string}}) {
+export default async function PorductIdRoute({params}: PageProps) {
+    noStore();
     const data = await getData(params.id)
     const addProducttoShoppingCart = addItem.bind(null, data.id)
   return (
