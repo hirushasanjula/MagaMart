@@ -2,7 +2,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import men from '@/public/men.jpg'
-import men2 from '@/public/men2.png'
 import women from '@/public/women.jpg'
 import nike from '@/public/nike.jpg'
 

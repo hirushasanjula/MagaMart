@@ -3,7 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from '@/components/ui/dropdown-menu'
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table'
 import prisma from '@/lib/db'
-import { MoreHorizontal, PlusCircle, UserIcon } from 'lucide-react'
+import { MoreHorizontal, PlusCircle } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'

@@ -3,7 +3,6 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import { Skeleton } from "@/components/ui/skeleton"
 import Image from "next/image"
 import Link from "next/link"
-import { it } from "node:test"
 
 interface iAppProps {
     item: {

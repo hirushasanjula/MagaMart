@@ -1,6 +1,6 @@
 "use client"
 
-import { createProduct, editProduct } from '@/app/action'
+import { editProduct } from '@/app/action'
 import { UploadDropzone } from '@/app/lib/uploadthing'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card'

@@ -1,6 +1,5 @@
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel'
 import prisma from '@/lib/db'
-import { Car } from 'lucide-react'
 import Image from 'next/image'
 import React from 'react'
 
