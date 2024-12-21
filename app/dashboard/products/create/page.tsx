@@ -143,7 +143,7 @@ export default function ProdcutCreateRoute() {
 
                <div className='flex flex-col gap-3'>
                 <Label>Images</Label>
-                <input type='hidden' value={images} key={fields.images.key} name={fields.images.name} defaultValue={fields.images.initialValue as any}/>
+                <input type='hidden' value={images} key={fields.images.key} name={fields.images.name} defaultValue={fields.images.initialValue as string | string[]}/>
                 {images.length > 0 ? (
                     <div className='flex gap-5'>
                       {images?.map((image, index) => (
@@ -167,7 +167,7 @@ export default function ProdcutCreateRoute() {
                     <UploadDropzone endpoint="imageUploader" onClientUploadComplete={(res) => {
                         setImages(res.map((r) => r.url))
                     }}
-                    onUploadError={(err) => {
+                    onUploadError={() => {
                         alert('Error uploading')
                     }}
                     />
