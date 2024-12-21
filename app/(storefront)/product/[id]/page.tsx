@@ -30,11 +30,18 @@ async function getData(productId: string) {
     return data;
 }
 
-export default async function PorductIdRoute({
- params,
-}: {
-  params: { id: string };
-}) {
+interface PageProps {
+    params: {
+      id: string;
+    };
+  }
+
+export default async function PorductIdRoute({params }: PageProps) {
+
+    if (!params || !params.id) {
+        return notFound();
+      }
+
     noStore();
     const data = await getData(params.id)
     const addProducttoShoppingCart = addItem.bind(null, data.id)
