@@ -1,7 +1,8 @@
 ## Next.js Ecommerce-Web Application
 
-This is a full-featured eCommerce website built using modern web technologies. The platform allows users to browse category add items to their cart, and complete purchases securely with Admin dashboard pannel
+<p>This is a full-featured eCommerce website built using modern web technologies. The platform allows users to browse category add items to their cart, and complete purchases securely with Admin dashboard pannel</p> <br>
 
+<img src="/image1.png" alt="Alt text">
 
 
 ## Features
@@ -17,6 +18,20 @@ This is a full-featured eCommerce website built using modern web technologies. T
 - Database: Neon
 - Authentication: JWT
 - Payment Integration: Stripe
+
+
+
+## Dekstop View
+
+<img src="/image1.png" alt="Alt text">
+<img src="/image2.png" alt="Alt text">
+<img src="/image3.png" alt="Alt text">
+
+## Mobile View
+
+<img src="/image4.png" alt="Alt text">
+<img src="/image5.png" alt="Alt text">
+
 
 ## Installation
 
