@@ -20,23 +20,18 @@ This is a full-featured eCommerce website built using modern web technologies. T
 
 ## Installation
 
-### Prerequisites
-Ensure you have the following installed:
-- Node.js (latest version)
-- MongoDB
-- Git
 
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/ecommerce-website.git
-   cd ecommerce-website
+   git clone (https://github.com/hirushasanjula/MagaMart.git)
+   cd MagaMart
    ```
 2. Install dependencies for both frontend and backend:
    ```bash
    cd backend
    npm install
-   cd ../frontend
+   cd frontend
    npm install
    ```
 3. Set up environment variables:
@@ -45,23 +40,18 @@ Ensure you have the following installed:
 4. Start the development server:
    ```bash
    cd backend
-   npm start
+   npm run dev
    ```
    Open a new terminal and start the frontend:
    ```bash
    cd frontend
-   npm start
+   npm run dev
    ```
 
 5. Open your browser and go to `http://localhost:3000`
 
 ## Contributing
-Contributions are welcome! Please follow these steps:
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature-branch`.
-3. Commit your changes: `git commit -m 'Add new feature'`.
-4. Push to your branch: `git push origin feature-branch`.
-5. Open a pull request.
+Hirusha Sanjula
 
 ## License
 This project is licensed under the MIT License.
