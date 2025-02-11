@@ -71,4 +71,5 @@ Software Engineering Graduatde at NSBN (Plymouth Unviersity)
 
 <a href="https://www.linkedin.com/in/hirusha-sanjula-8aba1b349?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)
 </a>
+<i class="fa fa-github"></i>
 
