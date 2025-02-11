@@ -66,11 +66,9 @@
 5. Open your browser and go to `http://localhost:3000`
 
 ## Contributing
-Hirusha Sanjula
+Hirusha Sanjula <br>
+Software Engineering Graduatde at NSBN (Plymouth Unviersity)
 
-## License
-This project is licensed under the MIT License.
-
-## Contact
-For any inquiries, feel free to reach out via email at `support@example.com` or create an issue in the repository.
+<a href="https://www.linkedin.com/in/hirusha-sanjula-8aba1b349?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)
+</a>
 
