@@ -1,38 +1,71 @@
 ## Next.js Ecommerce-Web Application
-![Car Marketplace Logo](/restaurant_logo.png)
-![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)
 
-## Getting Started
+This is a full-featured eCommerce website built using modern web technologies. The platform allows users to browse category add items to their cart, and complete purchases securely with Admin dashboard pannel
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
+- 🔐 User authentication (Login/Signup)
+- 🛍️ Product catalog with category
+- 🛒 Shopping cart and checkout system
+- 💳 Payment gateway integration
+- 📦 Order management for users and admins
+- 📱 Responsive design for mobile and desktop
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies Used
+- FullStack: Next.js,  Tailwind CSS, TypeScript
+- Database: Neon
+- Authentication: JWT
+- Payment Integration: Stripe
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Installation
 
-## Learn More
+### Prerequisites
+Ensure you have the following installed:
+- Node.js (latest version)
+- MongoDB
+- Git
 
-To learn more about Next.js, take a look at the following resources:
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/ecommerce-website.git
+   cd ecommerce-website
+   ```
+2. Install dependencies for both frontend and backend:
+   ```bash
+   cd backend
+   npm install
+   cd ../frontend
+   npm install
+   ```
+3. Set up environment variables:
+   - Create a `.env` file in the `backend` directory and add necessary configurations like database connection, JWT secret, and Stripe API keys.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Start the development server:
+   ```bash
+   cd backend
+   npm start
+   ```
+   Open a new terminal and start the frontend:
+   ```bash
+   cd frontend
+   npm start
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+5. Open your browser and go to `http://localhost:3000`
 
-## Deploy on Vercel
+## Contributing
+Contributions are welcome! Please follow these steps:
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature-branch`.
+3. Commit your changes: `git commit -m 'Add new feature'`.
+4. Push to your branch: `git push origin feature-branch`.
+5. Open a pull request.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
+This project is licensed under the MIT License.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contact
+For any inquiries, feel free to reach out via email at `support@example.com` or create an issue in the repository.
+
