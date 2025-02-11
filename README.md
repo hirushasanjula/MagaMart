@@ -1,5 +1,5 @@
 ## Next.js Ecommerce-Web Application
-![Car Marketplace Logo](images/logo.png)
+![Car Marketplace Logo](/logo.png)
 
 ## Getting Started
 
